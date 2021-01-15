@@ -12,11 +12,14 @@ body {
 }
 
 header {
-    padding: 0.1rem;
+    padding: 2rem;
+    padding-top: 0.4rem;
     text-align: center;
-    
-font-family: 'Special Elite', cursive;
+    font-family: 'Special Elite', cursive;
     font-size: 1.4rem;
+}
+header h1 {
+    display: inline;
 }
 
 .bg-primary {
@@ -67,4 +70,9 @@ font-family: 'Special Elite', cursive;
     background-color:white;
     color:#000;
     border: 1px solid var(--bg-primary);
+}
+
+.img {
+    max-width: 80px;
+    max-height: 100px;
 }
