@@ -12,8 +12,8 @@ body {
 }
 
 header {
-    padding: 0.4rem;
-    padding-top: 0.4rem;
+    padding: 2rem;
+    text-align: center;
     font-family: 'Special Elite', cursive;
     font-size: 2rem;
     font-weight: bold;
@@ -27,6 +27,13 @@ header {
 .container {
     width: 80%;
     margin: auto;
+}
+
+.img {
+    display: inline;
+    max-width: 5rem;
+    max-height: 6rem;
+    vertical-align:middle!important;
 }
 
 .InputBox, .OutputBox {
@@ -61,17 +68,10 @@ header {
     border-radius: 8px;
     outline: none;
     border: 1px solid var(--bg-primary);
-    
     font-family:'Potta One', cursive;
 }
 .btn:hover {
     background-color:white;
     color:#000;
     border: 1px solid var(--bg-primary);
-}
-
-.img {
-    max-width: 5rem;
-    max-height: 6rem;
-    vertical-align:middle!important;
 }
